@@ -4,13 +4,13 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: Rama Plant Keeper API key
+      app_store_connect: Rama Plant KeeperAPI Key
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.rama.plant.keeper.2025
       vars:
-        APP_STORE_APPLE_ID: 6747247230 #change
+        APP_STORE_APPLE_ID: 6747387054 #change
         BUNDLE_ID: 'com.rama.plant.keeper.2025'
         XCODE_WORKSPACE: 'RamaPlantKeeper.xcworkspace'
         XCODE_SCHEME: 'RamaPlantKeeper'
